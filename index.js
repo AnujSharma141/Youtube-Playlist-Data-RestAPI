@@ -2,7 +2,7 @@ const express = require('express')
 const superagent = require('superagent')
 const app = express()
 
-port = 3020
+port = 3001
   class snip{
     constructor(title,vid){
       this.title = title;
@@ -26,7 +26,7 @@ port = 3020
         })
         res.send(bigData)
       }
-      vidData('PLw-VjHDlEOgvtnnnqWlTqByAtC7tXBg6D')
+      vidData(key) //Insert playlist key as parameters 
   })
   
 app.listen(port , () => console.log('listening on ' + port))
