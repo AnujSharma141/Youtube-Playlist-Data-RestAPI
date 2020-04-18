@@ -1,0 +1,24 @@
+{
+  "name": "Youtube-Playlist-Data-RestAPI",
+  "version": "1.0.0",
+  "description": "A Rest API made with Express JS which fetches data of a youtube playlist .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujSharma141/Youtube-Playlist-Data-RestAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnujSharma141/Youtube-Playlist-Data-RestAPI/issues"
+  },
+  "homepage": "https://github.com/AnujSharma141/Youtube-Playlist-Data-RestAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^5.2.2"
+  }
+}
